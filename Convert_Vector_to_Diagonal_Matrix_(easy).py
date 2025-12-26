@@ -1,7 +1,6 @@
 import numpy as np
 
 def make_diagonal(x):
-    # Your code here
     result = []
     for i in range(len(x)):
         result.append([0]*i + [x[i]] + [0]*(len(x)-i-1))
